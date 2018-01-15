@@ -1,0 +1,33 @@
+<assembly>
+    <id>bin</id>
+    <!--  START SNIPPET: formats  -->
+    <formats>
+        <format>tar.gz</format>
+    </formats>
+    <!--  END SNIPPET: formats  -->
+    <!--  START SNIPPET: fileSets  -->
+    <fileSets>
+        <fileSet>
+            <includes>
+                <include>README*</include>
+            </includes>
+        </fileSet>
+        <fileSet>
+            <directory>src/main/resources/</directory>
+            <outputDirectory>/</outputDirectory>
+            <includes>
+                <include>application.properties</include>
+            </includes>
+            <lineEnding>unix</lineEnding>
+        </fileSet>
+        <fileSet>
+            <directory>target</directory>
+            <outputDirectory>/</outputDirectory>
+            <includes>
+                <include>trzpoc-gui-jar-with-dependencies.jar</include>
+                <include>trzpoc-console-jar-with-dependencies.jar</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+    <!--  END SNIPPET: fileSets  -->
+</assembly>
