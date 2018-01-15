@@ -123,6 +123,9 @@
       <Port>5050</Port>
     </configuration>
   </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+  </component>
   <component name="libraryTable">
     <library name="Maven: com.beust:jcommander:1.27">
       <CLASSES>
