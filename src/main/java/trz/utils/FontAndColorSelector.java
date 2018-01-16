@@ -47,7 +47,7 @@ public class FontAndColorSelector {
     private Set<Character> smallFontsChars;
     private Map<Character, Color> colorMap;
     private Properties properties;
-    private TextMetricCalculator textMetricCalculator;
+    //private TextMetricCalculator textMetricCalculator;
 
     public static FontAndColorSelector getNewInstance(){
         return new FontAndColorSelector();
@@ -78,7 +78,7 @@ public class FontAndColorSelector {
             this.smallFont = this.loadSmallFont();
             this.smallBoldFont = this.loadSmallBoldFont();
             this.bigFont = this.loadBigFont();
-            this.textMetricCalculator = TextMetricCalculator.getInstance();
+            //this.textMetricCalculator = TextMetricCalculator.getInstance();
         }catch (Exception e){
             e.printStackTrace();
         }
@@ -145,26 +145,32 @@ public class FontAndColorSelector {
     }
 
     public int getWidthForSmallFont(String w) {
-        return this.textMetricCalculator.calculateWidth(w, this.smallFont);
+        return 0;
+        //return this.textMetricCalculator.calculateWidth(w, this.smallFont);
    }
 
     public int getWidthForBigFont(String w) {
-        return TextMetricCalculator.getInstance().calculateWidth(w, this.bigFont);
+        return 0;
+        //return TextMetricCalculator.getInstance().calculateWidth(w, this.bigFont);
     }
 
     public int getHeightForSmallFont(String w) {
-        return TextMetricCalculator.getInstance().calculateHeight(w, this.smallFont);
+        return 0;
+        //return TextMetricCalculator.getInstance().calculateHeight(w, this.smallFont);
     }
 
     public int getHeightForBigFont(String w) {
-        return TextMetricCalculator.getInstance().calculateHeight(w, this.bigFont);
+        return 0;
+        //return TextMetricCalculator.getInstance().calculateHeight(w, this.bigFont);
     }
     public int getWidthForFont(Font font, String w) {
-        return TextMetricCalculator.getInstance().calculateWidth(w, font);
+        return 0;
+        //return TextMetricCalculator.getInstance().calculateWidth(w, font);
     }
 
     public int getHeightForFont(Font font, String w) {
-        return TextMetricCalculator.getInstance().calculateHeight(w, font);
+        return 0;
+        //return TextMetricCalculator.getInstance().calculateHeight(w, font);
     }
 
     public Font getBigFont() {

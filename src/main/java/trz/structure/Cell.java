@@ -79,12 +79,13 @@ public abstract class Cell implements CellInterface {
         return this.pixelScreenYPos - this.getHeight();
     }
     public int getWidth() {
-
-        return TextMetricCalculator.getInstance().calculateWidth(this.getValue(), this.font);
+        return 0;
+        //return TextMetricCalculator.getInstance().calculateWidth(this.getValue(), this.font);
     }
     public int getHeight() {
 
-        return TextMetricCalculator.getInstance().calculateHeight(this.getValue(), this.font);
+        return 0;
+        //return TextMetricCalculator.getInstance().calculateHeight(this.getValue(), this.font);
     }
     public int getxPos() {
         return xPos;
