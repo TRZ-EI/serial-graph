@@ -6,21 +6,6 @@ package trz.gui;
  * Date: 14/01/18
  * Time: 18.23
  */
-/*
- * Copyright (c) 2013 by Gerrit Grunwald
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 
 
 import eu.hansolo.enzo.charts.SimpleLineChart;
@@ -35,13 +20,6 @@ import javafx.scene.chart.XYChart;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
-
-/**
- * Created by
- * User: hansolo
- * Date: 19.08.13
- * Time: 15:07
- */
 
 public class Demo extends Application {
     private static int      noOfNodes = 0;
@@ -89,7 +67,7 @@ public class Demo extends Application {
         stage.setScene(scene);
         stage.show();
 
-        calcNoOfNodes(scene.getRoot());
+       this.calcNoOfNodes(scene.getRoot());
         System.out.println(noOfNodes + " Nodes in SceneGraph");
     }
 
@@ -103,7 +81,7 @@ public class Demo extends Application {
 
 
     // ******************** Misc **********************************************
-    private static void calcNoOfNodes(Node node) {
+    private void calcNoOfNodes(Node node) {
         if (node instanceof Parent) {
             if (((Parent) node).getChildrenUnmodifiable().size() != 0) {
                 ObservableList<Node> tempChildren = ((Parent) node).getChildrenUnmodifiable();
