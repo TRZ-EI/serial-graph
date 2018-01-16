@@ -36,6 +36,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-math3</artifactId>
+            <version>3.2</version>
+        </dependency>
+        <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>23.3-jre</version>
@@ -90,6 +95,7 @@
         <plugins>
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
+                <version>3.1.0</version>
                 <configuration>
                     <finalName>${file-name}</finalName>
                     <archive>
@@ -104,6 +110,7 @@
             </plugin>
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
+                <version>3.1.0</version>
                 <executions>
                     <execution>
                         <id>make-assembly</id> <!-- this is used for inheritance merges -->
