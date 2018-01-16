@@ -52,9 +52,9 @@ public class BestFitSplineDemo extends Application {
         transition.setCycleCount(PathTransition.INDEFINITE);
         transition.play();
 
-        // show a light grey path representing the distance over time.
+        // show a coral path representing the distance over time.
         Path timeVsDistancePath = new Path();
-        timeVsDistancePath.setStroke(Color.CORAL.darker());
+        timeVsDistancePath.setStroke(Color.CORAL.brighter());
         timeVsDistancePath.getStrokeDashArray().setAll(15d, 10d, 5d, 10d);
         plotSpline(timeVsDistancePath, timeVsDistanceInterpolator, true);
 
