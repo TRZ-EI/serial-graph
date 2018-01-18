@@ -32,12 +32,10 @@ public class BestFitSplineDemo extends Application {
         path.setStroke(Color.DARKGREEN);
 
         final Interpolator pathInterpolator = new BestFitSplineInterpolator(
-                new double[] { 0.0, 0.25, 0.5, 0.75, 1.0 },
-                new double[] { 0.0, 0.5,  0.3, 0.8,  0.0 }
+                new double[] { 0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8,0.9,1.0 },
+                new double[] { 0.0, 1.0, 0.99, 0.98, 0.97, 0.96, 0.95, 0.94, 0.93, 0.92, 0.91 }
         );
 
-        // interpolated spline function plot.
-        plotSpline(path, pathInterpolator, true);
 
         // animated dot moving along the plot according to a distance over time function.
         final Interpolator timeVsDistanceInterpolator = new BestFitSplineInterpolator(
@@ -45,25 +43,29 @@ public class BestFitSplineDemo extends Application {
                 new double[] { 0.0, 0.1,  0.4, 0.85, 1.0 }
         );
 
+        // interpolated spline function plot.
+        // plotSpline(path, pathInterpolator, true);
+        plotSpline(path, pathInterpolator, true);
+
         Circle dot = new Circle(5, Color.GREENYELLOW);
         PathTransition transition = new PathTransition(CYCLE_TIME, path, dot);
         transition.setInterpolator(timeVsDistanceInterpolator);
         transition.setAutoReverse(true);
         transition.setCycleCount(PathTransition.INDEFINITE);
-        transition.play();
+        //transition.play();
 
         // show a coral path representing the distance over time.
         Path timeVsDistancePath = new Path();
         timeVsDistancePath.setStroke(Color.CORAL.brighter());
         timeVsDistancePath.getStrokeDashArray().setAll(15d, 10d, 5d, 10d);
-        plotSpline(timeVsDistancePath, timeVsDistanceInterpolator, true);
+        plotSpline(timeVsDistancePath, pathInterpolator, false);
 
         stage.setScene(
                 new Scene(
                         new Group(
-                                timeVsDistancePath,
-                                path,
-                                dot
+                                timeVsDistancePath//,
+                                //path,
+                                //dot
                         ),
                         Color.rgb(35,39,50)
                 )
