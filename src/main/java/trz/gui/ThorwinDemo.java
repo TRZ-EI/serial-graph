@@ -36,15 +36,15 @@ public class ThorwinDemo extends Application {
         chart.getData().add(series2);
 
         // setup chart series
-        double[] xs = {0.0, 1.0, 2.0, 3.0, 4.0, 5.0};
-        double[] ys = {0.5, 1.3, 2.4, 5.6, 8.8, 9.1};
+        double[] xs = {0.0, 0.5, 2.0, 3.0, 4.0, 5.0};
+        double[] ys = {0.0, 4.0, 3.0, 3.5, 3.0, 2.5};
 
         for (int i = 0; i < xs.length; i++) {
             series1.getData().add(new XYChart.Data<>(xs[i], ys[i]));
         }
 
         // calculate the polynomial coefficients and calculate trend points
-        double[] coefficients = polyfit(xs, ys, 2);
+        double[] coefficients = polyfit(xs, ys, 4);
 
         for (double x = 0; x <= 5.0; x += 0.05) {
             double y = polynomial(x, coefficients);
