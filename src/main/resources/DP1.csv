@@ -1,102 +1,100 @@
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:-0,3:DP2 - BAR2
-Variable 5:-0,3:DP2 - BAR2
-Variable 5:-0,7:DP2 - BAR2
-Variable 5:-0,7:DP2 - BAR2
-Variable 5:-1,1:DP2 - BAR2
-Variable 5:-1,1:DP2 - BAR2
-Variable 5:-1,6:DP2 - BAR2
-Variable 5:-1,9:DP2 - BAR2
-Variable 5:-1,9:DP2 - BAR2
-Variable 5:-1,9:DP2 - BAR2
-Variable 5:-2,2:DP2 - BAR2
-Variable 5:-2,2:DP2 - BAR2
-Variable 5:-2,2:DP2 - BAR2
-Variable 5:-2,2:DP2 - BAR2
-Variable 5:-2,2:DP2 - BAR2
-Variable 5:-2,2:DP2 - BAR2
-Variable 5:-2,2:DP2 - BAR2
-Variable 5:-2,2:DP2 - BAR2
-Variable 5:-2,2:DP2 - BAR2
-Variable 5:-2,2:DP2 - BAR2
-Variable 5:-2,2:DP2 - BAR2
-Variable 5:-2,2:DP2 - BAR2
-Variable 5:-2,2:DP2 - BAR2
-Variable 5:-1,8:DP2 - BAR2
-Variable 5:-1,5:DP2 - BAR2
-Variable 5:-1,2:DP2 - BAR2
-Variable 5:-0,8:DP2 - BAR2
-Variable 5:-0,5:DP2 - BAR2
-Variable 5:-0,5:DP2 - BAR2
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:0,3:DP1 - BAR1
-Variable 5:0,3:DP1 - BAR1
-Variable 5:0,3:DP1 - BAR1
-Variable 5:0,3:DP1 - BAR1
-Variable 5:0,3:DP1 - BAR1
-Variable 5:0,3:DP1 - BAR1
-Variable 5:0,3:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:0:DP1 - BAR1
-Variable 5:-0,3:DP2 - BAR2
-Variable 5:-0,3:DP2 - BAR2
-Variable 5:-0,7:DP2 - BAR2
-Variable 5:-1:DP2 - BAR2
-Variable 5:-1:DP2 - BAR2
-Variable 5:-1:DP2 - BAR2
-Variable 5:-1:DP2 - BAR2
-Variable 5:-1:DP2 - BAR2
-Variable 5:-1:DP2 - BAR2
-Variable 5:-1:DP2 - BAR2
-Variable 5:-1:DP2 - BAR2
-Variable 5:-1:DP2 - BAR2
-Variable 5:-1:DP2 - BAR2
-Variable 5:-1:DP2 - BAR2
-Variable 5:-1:DP2 - BAR2
-Variable 5:-1:DP2 - BAR2
-Variable 5:-1:DP2 - BAR2
-Variable 5:-1:DP2 - BAR2
-Variable 5:-1,1:DP2 - BAR2
-Variable 5:-1,1:DP2 - BAR2
-Variable 5:-1,1:DP2 - BAR2
-Variable 5:-1,1:DP2 - BAR2
-Variable 5:-1,1:DP2 - BAR2
-Variable 5:-1,1:DP2 - BAR2
-Variable 5:-1,1:DP2 - BAR2
-Variable 5:-1,1:DP2 - BAR2
-Variable 5:-1,1:DP2 - BAR2
-Variable 5:-1,1:DP2 - BAR2
-Variable 5:-5:DP2 - BAR2
+Variable 5,0
+Variable 5,0
+Variable 5,0
+Variable 5,0
+Variable 5,0
+Variable 5,0
+Variable 5,0
+Variable 5,0
+Variable 5,0
+Variable 5,0
+Variable 5,0
+Variable 5,0
+Variable 5,0
+Variable 5,0
+Variable 5,0
+Variable 5,0
+Variable 5,0
+Variable 5,0
+Variable 5,0
+Variable 5,0
+Variable 5,0
+Variable 5,0
+Variable 5,0
+Variable 5,0
+Variable 5,0
+Variable 5,0
+Variable 5,0
+Variable 5,0
+Variable 5,0
+Variable 5,0
+Variable 5,0
+Variable 5,0
+Variable 5,0
+Variable 5,"-0,3"
+Variable 5,"-0,3"
+Variable 5,"-0,7"
+Variable 5,"-0,7"
+Variable 5,"-1,1"
+Variable 5,"-1,1"
+Variable 5,"-1,6"
+Variable 5,"-1,9"
+Variable 5,"-1,9"
+Variable 5,"-1,9"
+Variable 5,"-2,2"
+Variable 5,"-2,2"
+Variable 5,"-2,2"
+Variable 5,"-2,2"
+Variable 5,"-2,2"
+Variable 5,"-2,2"
+Variable 5,"-2,2"
+Variable 5,"-2,2"
+Variable 5,"-2,2"
+Variable 5,"-2,2"
+Variable 5,"-2,2"
+Variable 5,"-2,2"
+Variable 5,"-2,2"
+Variable 5,"-1,8"
+Variable 5,"-1,5"
+Variable 5,"-1,2"
+Variable 5,"-0,8"
+Variable 5,"-0,5"
+Variable 5,"-0,5"
+Variable 5,0
+Variable 5,0
+Variable 5,"0,3"
+Variable 5,"0,3"
+Variable 5,"0,3"
+Variable 5,"0,3"
+Variable 5,"0,3"
+Variable 5,"0,3"
+Variable 5,"0,3"
+Variable 5,0
+Variable 5,0
+Variable 5,"-0,3"
+Variable 5,"-0,3"
+Variable 5,"-0,7"
+Variable 5,-1
+Variable 5,-1
+Variable 5,-1
+Variable 5,-1
+Variable 5,-1
+Variable 5,-1
+Variable 5,-1
+Variable 5,-1
+Variable 5,-1
+Variable 5,-1
+Variable 5,-1
+Variable 5,-1
+Variable 5,-1
+Variable 5,-1
+Variable 5,"-1,1"
+Variable 5,"-1,1"
+Variable 5,"-1,1"
+Variable 5,"-1,1"
+Variable 5,"-1,1"
+Variable 5,"-1,1"
+Variable 5,"-1,1"
+Variable 5,"-1,1"
+Variable 5,"-1,1"
+Variable 5,"-1,1"
