@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cadd6d2-a6a9-4964-9981-8f5b73d1c9a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/DP2-collection.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serial-graph.iws" afterPath="$PROJECT_DIR$/serial-graph.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/DP1-collection.txt" afterPath="$PROJECT_DIR$/src/main/resources/DP1-collection.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -986,7 +984,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516288434750</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="WIP">
+      <created>1516289988112</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1516289988112</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
