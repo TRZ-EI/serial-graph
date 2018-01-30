@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cadd6d2-a6a9-4964-9981-8f5b73d1c9a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/trz/structure/FinalTestDataForXYChart.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/trz/structure/RunningTestDataForXYChart.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/trz/structure/SetupForXYChart.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/dataInput.ods" afterPath="$PROJECT_DIR$/src/main/resources/dataInput.ods" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serial-graph.iws" afterPath="$PROJECT_DIR$/serial-graph.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/trz/gui/ThorwinDemo.java" afterPath="$PROJECT_DIR$/src/main/java/trz/gui/ThorwinDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/trz/structure/serial/SerialDataReader.java" afterPath="$PROJECT_DIR$/src/main/java/trz/structure/serial/SerialDataReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/DP1-collection.txt" afterPath="$PROJECT_DIR$/src/main/resources/DP1-collection.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/DP1.csv" afterPath="$PROJECT_DIR$/src/main/resources/DP1.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/DP2-collection.txt" afterPath="$PROJECT_DIR$/src/main/resources/DP2-collection.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/tempo-collection.txt" afterPath="$PROJECT_DIR$/src/main/resources/tempo-collection.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/tempo.csv" afterPath="$PROJECT_DIR$/src/main/resources/tempo.csv" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,6 +45,10 @@
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#851#867#0" expanded="true" />
+                <marker date="1517208574276" expanded="true" signature="1870:2387" ph="{...}" />
+                <marker date="1517208574276" expanded="true" signature="2419:3015" ph="{...}" />
+                <marker date="1517208574276" expanded="false" signature="3060:3071" ph=" { " />
+                <marker date="1517208574276" expanded="false" signature="3103:3109" ph=" }" />
               </folding>
             </state>
           </provider>
@@ -818,7 +811,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516288434750</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="WIP">
+      <created>1517208519452</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1517208519452</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1206,6 +1206,10 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#851#867#0" expanded="true" />
+            <marker date="1517208574276" expanded="true" signature="1870:2387" ph="{...}" />
+            <marker date="1517208574276" expanded="true" signature="2419:3015" ph="{...}" />
+            <marker date="1517208574276" expanded="false" signature="3060:3071" ph=" { " />
+            <marker date="1517208574276" expanded="false" signature="3103:3109" ph=" }" />
           </folding>
         </state>
       </provider>
