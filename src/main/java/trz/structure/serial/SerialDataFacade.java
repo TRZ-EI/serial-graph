@@ -34,19 +34,9 @@ public class SerialDataFacade {
 
     private void fillParsersMap() {
         this.parsersMap = new HashMap<>();
-
-/*
-        this.parsersMap.put('V', VariableConfiguratorSerialDataParser.getNewInstance());
-        this.parsersMap.put('v', VariableValueSerialDataParser.getNewInstance());
-        this.parsersMap.put('t', TextSerialDataParser.getNewInstance());
-        this.parsersMap.put('C', ClearSerialDataParser.getNewInstance());
-        this.parsersMap.put('K', RowCleanerSerialDataParser.getNewInstance());
-        this.parsersMap.put('B', BarSerialDataParser.getNewInstance());
-        this.parsersMap.put('n', NumberSerialDataParser.getNewInstance());
-*/
-
-
-
+        this.parsersMap.put('S', GraphSetupSerialDataParser.getNewInstance());
+        this.parsersMap.put('R', GraphRunningDataSerialDataParser.getNewInstance());
+        this.parsersMap.put('F', GraphFinalDataSerialDataParser.getNewInstance());
     }
 
     public Cell onSerialDataInput(byte[] data) throws UnsupportedEncodingException {
